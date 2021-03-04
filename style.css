@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topBar{
+    background:#0C2B4B;
+}
+.logoSection{
+    text-align: right;
+    clip-path: polygon(0% 0%, 100% 0%, 93% 100%, 0% 100%);
+    background: #F3BD00;
+}
+
+.menuSection ul{
+    margin-top: 19px;
+    margin-left:-40px;
+}
+.menuSection ul li{
+    display: inline-block;
+    padding: 10px 12px;
+}
+.menuSection ul li a{
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menuSection ul li a:hover{
+    border-bottom: 2px solid #F3BD00;
+}
+
+.iconMenu ul{
+    margin-top: 19px;
+    margin-left:-40px;
+}
+.iconMenu ul li{
+    display: inline-block;
+    padding: 10px 12px;
+}
+.iconMenu ul li:first-child{
+    margin-right:-15px;
+}
+.iconMenu ul li a{
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.headerButton{
+    margin-top:17px;
+    margin-left: -105px;
+    
+}
+.headerButton a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding:12px 27px;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+/*=====================================
+    second section css
+======================================*/
+
+.secondSection{
+    background-image: url(images/hero-bg.jpg);
+    padding-top:292px;
+    padding-bottom:375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+}
+.secondSectionContent h3{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.secondSectionContent h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.secondSectioButton{
+    width: 15%;
+    text-align: center;
+}
+.secondSectioButton a{
+    padding: 10px 15px;
+    border-radius: 0;
+    color: white;
+    margin: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.second{
+    background: #0C2B4B;
+    color: white;
+    border-radius: 0;
+}
+
+/*=====================================
+    third section css
+======================================*/
+
+.box1{
+    background: #0C2B4B;
+    padding: 45px;
+    margin-top: 32px;
+}
+.box1 img{
+    padding-bottom: 20px;
+}
+.box1 h5{
+    color: white;
+}
+.secondItem, .contentSection{
+    margin-top: 115px;
+}
+.contentSection h2, .videoSectionContent h2{
+    font-size:38px;
+    color:#111111;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -15px;
+    margin-bottom:20px;
+}
+.contentSection p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+}
+.whycu{
+    color: #F3BD00;
+    font-weight: bold;
+}
+
+/*=====================================
+    four/video section css
+======================================*/
+
+.videoSectionContent{
+
+}
+
+/*=====================================
+    fifth section css
+======================================*/
+
+.formtext{
+    text-align: center;
+    margin-top:100px;
+}
+.formtext p{
+    font-size: 15px;
+    font-weight:bold ;
+    color:#F3BD00;
+    margin-bottom:5px;
+}
+.formtext h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+.form input[type="text"],[type="email"],[type="number"],[type="date"],select{
+    width: 30%;
+    margin: 2% 1%;
+    padding: 1%;
+}
+input[type="submit"]{
+    background: #0C2B4B;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 17%;
+    border: none;
+    margin-top: 8px;
+    margin-left: 515px;
+    padding: 17px;
+}
+.four{
+    background: white;
+    position: relative;
+    z-index: 1;
+}
+.fifth{
+    background: #F5F5F5;
+    padding-top:258px;
+    padding-bottom: 30px;
+    margin-top:-257px;
+    border-radius:93% 93% 0% 0%/77% 77%;
+    position: absolute;
+    z-index: -1;
+}
+
+/*=====================================
+    sixth section css
+======================================*/
+
+.sixthSection{
+    background-image: url(images/pricing-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:37%;
+    margin-bottom: 30px;
+}
+.sixSectionText{
+    text-align: center;
+}
+.sixSectionText p{
+    color:#F3BD00;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sixSectionText h2{
+    font-size:40px;
+    font-style: italic;
+    color: white;
+}
+.priceBox{
+    background:#0c2b4b6e;
+    text-align: center;
+    padding: 49px 20px;
+    margin: 1%;
+}
+.priceBox h4{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.priceBox h2{
+    color: #F3BD00;
+    font-size:50px;
+    font-weight: bold;
+}
+.priceBox h3{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 47px;
+    border-bottom: 1px solid gray;
+}
+.priceBox ul{
+    text-align: center;
+    padding: 35px 0px;
+}
+.priceBox ul li{
+    display: block;
+    padding: 5px 0px;
+}
+.priceBox ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 35px
+}
+.boxButton{
+    text-decoration: none;
+    padding: 15px 80px;
+    background: #0C2B4B;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.priceBox:hover{
+    background:#0C2B4B;
+}
+.priceBox:hover .boxButton{
+    background:#F3BD00;
+    color: white;
+}
+
+/*=====================================
+    seventh section css
+======================================*/
+
+.seventhSectionText p{
+    color: #F3BD00;
+    margin: 0;
+}
+.seventhSectionText h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+.seventhSection .vw{
+    background: #0C2B4B;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 35px;
+}
+.instructor{
+    display: flex;
+    padding: 25px;
+}
+.singleInstructor{
+    border: 1px solid #E1E1E1;
+    display: flex;
+    width: 50%;
+    margin:1%;
+    padding: 35px 35px;
+    margin-bottom: -60px;
+}
+.instructorImage{
+    margin-right: 4%;
+}
+.instructorContent .tag{
+    color:#F3BD00 ;
+}
+.instructorContent h3{
+    font-size:18px;
+    font-weight: bold;
+}
+.instructorIcon ul{
+    margin-left: -35px;
+}
+.instructorIcon ul li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.instructorIcon ul li a{
+    color: black;
+}
+
+/*=====================================
+    fotter section css
+======================================*/
+
+.fotterSection{
+    background: #0C2B4B;
+    margin-top: 80px;
+}
+.fotterSection h4{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.fotterSection ul li{
+    display: block;
+    padding: 10px 0px;
+}
+.fotterSection ul li a,p{
+    text-decoration: none;
+    color:#C4BAA1;
+    font-size:15px;
+}
+.fotterSection img{
+    margin-bottom:40px;
+}
+.copyright{
+    text-align: center;
+    border-top: 1px solid #25415D;
+    margin-left:145px;
+    margin-right:145px;
+    margin-top: 25px;
+    padding-top: 20px;
+
+}
